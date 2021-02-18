@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--Layout of one nanny list item-->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
+
+<!--    ImageView is the normal view that we would use in Android to show a smiple image-->
     <ImageView
         android:id="@+id/image_nanny"
         android:layout_width="100dp"
@@ -21,6 +24,7 @@
         app:layout_constraintStart_toEndOf="@+id/image_nanny"
         android:layout_marginStart="10dp"
         android:orientation="vertical">
+<!--        Text to represent the name of the nanny-->
         <TextView
             android:id="@+id/txt_nanny_name"
             android:layout_width="wrap_content"
@@ -28,6 +32,8 @@
             android:text="placeholder nanny name"
             android:layout_marginTop="10dp"/>
 
+
+<!--        Text to represent qualification of a nanny-->
         <TextView
             android:id="@+id/txt_nanny_story"
             android:layout_width="wrap_content"
@@ -37,6 +43,7 @@
             app:layout_constraintTop_toBottomOf="@id/txt_nanny_name" />
     </LinearLayout>
 
+<!--    ImageButton to create a button with an image-->
     <ImageButton
         android:id="@+id/btn_call_nanny"
         android:layout_width="wrap_content"

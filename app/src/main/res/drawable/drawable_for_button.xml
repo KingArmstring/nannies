@@ -5,3 +5,4 @@
     <corners android:radius="14dp" />
 
 </shape>
+<!--Simple background for button to make it's corners look curvy-->

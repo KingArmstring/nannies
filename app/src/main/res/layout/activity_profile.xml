@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--This layout is for the profileActivity when the user clicks on one of
+the nannies profiles, this should be the screen to appear.-->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,6 +8,7 @@
     android:layout_height="match_parent"
     tools:context=".nannies.ProfileActivity">
 
+<!--    Simple placeholder text-->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

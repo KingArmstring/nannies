@@ -7,4 +7,6 @@
     tools:context=".SplashActivity"
     android:background="@color/purple_200">
 
+<!--    Using splashy to show nice splash screen, splashy is a third-party lib and it's the best in making splash screens-->
+
 </androidx.constraintlayout.widget.ConstraintLayout>

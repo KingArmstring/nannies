@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--In general I use ConstraintLayout as the root of any layout because it'
+s the one recommended by Google since it flattens the layout tags as possible
+which makes rendering more efficient-->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,6 +11,10 @@
     android:background="@color/purple_200">
 
 
+<!--    Button to start searching for nannies, not working currently-->
+<!--    There is onClick field which has value of searchNanniesButtonClickHandler
+which represent the name of the function in MainActivity that will be executed when
+this button is clicked-->
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
