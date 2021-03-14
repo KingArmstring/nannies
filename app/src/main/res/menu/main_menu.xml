@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--A menu item-->
+    <item
+        android:id="@+id/id_menu_nannies"
+        android:title="nannies"
+        app:showAsAction="never"
+        />
+
+    <!--A menu item-->
+    <item
+        android:id="@+id/id_menu_extra"
+        android:title="placeholder 1"
+        app:showAsAction="never"
+        />
+
+    <!--A menu item-->
+    <item
+        android:id="@+id/id_menu_extra_2"
+        android:title="placeholder 2"
+        app:showAsAction="never"
+        />
+
+    <!--A menu item-->
+    <item android:id="@+id/id_menu_red"
+        android:icon="@drawable/red_droid_icon"
+        android:title="red"
+        app:showAsAction="always" />
+
+    <!--A menu item-->
+    <item android:id="@+id/id_menu_green"
+        android:icon="@drawable/green_droid_icon"
+        android:title="red"
+        app:showAsAction="always" />
+
+    <!--A menu item-->
+    <item android:id="@+id/id_menu_blue"
+        android:icon="@drawable/blue_droid_icon"
+        android:title="red"
+        app:showAsAction="always" />
+</menu>
